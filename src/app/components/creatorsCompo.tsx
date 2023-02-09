@@ -24,10 +24,10 @@ export default function Creators() {
           </div>
           <div className="grid gap-6 px-4 sm:px-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <Link
-              href="https://www.linkedin.com/in/joshuah-edwards/"
+              href="https://www.linkedin.com/in/william-moody/"
               target="_blank"
             >
-              <div className="group relative rounded-3xl  space-y-6 overflow-hidden">
+              <div className="group relative rounded-3xl space-y-6 overflow-hidden">
                 <Image
                   className=""
                   src={josh}
@@ -35,19 +35,17 @@ export default function Creators() {
                   width={425}
                   // height={}
                 />
-
-                <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-slate-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
-                  <div>
+                <div className="absolute bottom-0 inset-x-0 h-max mt-auto">
+                  <div className="px-4 py-6 bg-slate-800 dark:bg-white translate-y-28 transition duration-300 ease-in-out group-hover:translate-y-0">
                     <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
                       Joshuah Edwards
                     </h4>
                     <span className="block text-sm text-gray-500">Founder</span>
+                    <p className="mt-8 text-gray-300 dark:text-gray-600">
+                      Artistic and logical software engineer passionate about
+                      building, automation, and health tech.
+                    </p>
                   </div>
-                  <p className="mt-8 text-gray-300 dark:text-gray-600">
-                    Software engineer that appreciates the art and logic of the
-                    industry, with a passion for building, automation, and
-                    health tech.
-                  </p>
                 </div>
               </div>
             </Link>
@@ -56,7 +54,7 @@ export default function Creators() {
               href="https://www.linkedin.com/in/william-moody/"
               target="_blank"
             >
-              <div className="group relative rounded-3xl  space-y-6 overflow-hidden">
+              <div className="group relative rounded-3xl space-y-6 overflow-hidden">
                 <Image
                   className=""
                   src={will}
@@ -64,22 +62,26 @@ export default function Creators() {
                   width={425}
                   // height={}
                 />
-                <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-slate-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
-                  <div className="max-h-20 hover:max-h-full hover:overflow-auto">
+                <div className="absolute bottom-0 inset-x-0 h-max mt-auto">
+                  <div className="px-4 py-6 bg-slate-800 dark:bg-white translate-y-28 transition duration-300 ease-in-out group-hover:translate-y-0">
                     <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
                       Will Moody
                     </h4>
                     <span className="block text-sm text-gray-500">Founder</span>
+                    <p className="mt-8 text-gray-300 dark:text-gray-600">
+                      Software engineer with a passion for developing
+                      cutting-edge technology and building and testing
+                      full-stack applications.
+                    </p>
                   </div>
-                  <p className="mt-8 text-gray-300 dark:text-gray-600">
-                    Software engineer with a passion for developing cutting-edge
-                    technology and building and testing full-stack applications.
-                  </p>
                 </div>
               </div>
             </Link>
-            <Link href="https://www.linkedin.com/in/xtchow/" target="_blank">
-              <div className="group relative rounded-3xl  space-y-6 overflow-hidden">
+            <Link
+              href="https://www.linkedin.com/in/william-moody/"
+              target="_blank"
+            >
+              <div className="group relative rounded-3xl space-y-6 overflow-hidden">
                 <Image
                   className=""
                   src={ember}
@@ -87,25 +89,25 @@ export default function Creators() {
                   width={425}
                   // height={}
                 />
-                <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-slate-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
-                  <div>
+                <div className="absolute bottom-0 inset-x-0 h-max mt-auto">
+                  <div className="px-4 py-6 bg-slate-800 dark:bg-white translate-y-28 transition duration-300 ease-in-out group-hover:translate-y-0">
                     <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
                       Sarah Chow
                     </h4>
                     <span className="block text-sm text-gray-500">Founder</span>
+                    <p className="mt-8 text-gray-300 dark:text-gray-600">
+                      A software engineer committed to exceptional projects and
+                      striving for continued excellence.
+                    </p>
                   </div>
-                  <p className="mt-8 text-gray-300 dark:text-gray-600">
-                    Quae labore quia tempora dolor impedit. Possimus, sint
-                    ducimus ipsam?
-                  </p>
                 </div>
               </div>
             </Link>
             <Link
-              href="https://www.linkedin.com/in/alina-grafkina-955a56179/"
+              href="https://www.linkedin.com/in/william-moody/"
               target="_blank"
             >
-              <div className="group relative rounded-3xl  space-y-6 overflow-hidden">
+              <div className="group relative rounded-3xl space-y-6 overflow-hidden">
                 <Image
                   className=""
                   src={alina}
@@ -113,17 +115,17 @@ export default function Creators() {
                   width={425}
                   // height={}
                 />
-                <div className="absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-slate-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0">
-                  <div>
+                <div className="absolute bottom-0 inset-x-0 h-max mt-auto">
+                  <div className="px-4 py-6 bg-slate-800 dark:bg-white translate-y-28 transition duration-300 ease-in-out group-hover:translate-y-0">
                     <h4 className="text-xl font-semibold dark:text-gray-700 text-white">
                       Alina Grafkina
                     </h4>
                     <span className="block text-sm text-gray-500">Founder</span>
+                    <p className="mt-8 text-gray-300 dark:text-gray-600">
+                      An innovative software engineer with a unique combination
+                      of technical and creative skills.
+                    </p>
                   </div>
-                  <p className="mt-8 text-gray-300 dark:text-gray-600">
-                    Innovative software engineer with a blend of technical and
-                    creative expertise.
-                  </p>
                 </div>
               </div>
             </Link>
