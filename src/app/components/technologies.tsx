@@ -3,7 +3,7 @@ import kubernetes from '../../../public/kubernetes-.png'
 import kubecost from '../../../public/kubecost.png'
 import docker from '../../../public/docker.png'
 import minikube from '../../../public/minikube.png'
-import mongoDB from '../../../public/mongoDB.png'
+import mongoDB from '../../../public/MongoDB.png'
 import grafana from '../../../public/grafana.png'
 
 export default function Tech() {
