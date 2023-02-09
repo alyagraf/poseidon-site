@@ -61,16 +61,16 @@ export default function NavBar() {
                         className="gap-y-6 tracking-wide 
                                     text-gray-500 dark:text-gray-300 font-medium flex flex-col md:flex-row md:gap-y-0">
                         <li>
-                          <a href="/" className="block md:px-4">
+                          <Link href="/" className="block md:px-4">
                             <div
                               className="relative text-sky-500 dark:text-green-400
                                                             before:absolute before:-bottom-2 md:before:-bottom-7 before:w-full before:h-1 before:mx-auto before:mt-auto before:rounded-t-full before:bg-sky-500">
                               <span>Home</span>
                             </div>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="/press" className="block md:px-4 group">
+                          <Link href="/press" className="block md:px-4 group">
                             <div
                               className="relative group
                                                             before:absolute before:-bottom-2 md:before:-bottom-7 before:w-full before:h-0.5 before:origin-left before:mt-auto before:rounded-full before:bg-sky-500 before:transition before:scale-x-0 group-hover:before:scale-x-100">
@@ -78,10 +78,10 @@ export default function NavBar() {
                                 Press
                               </span>
                             </div>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="/setup" className="block md:px-4 group">
+                          <Link href="/setup" className="block md:px-4 group">
                             <div
                               className="relative group
                                                             before:absolute before:-bottom-2 md:before:-bottom-7 before:w-full before:h-0.5 before:origin-left before:mt-auto before:rounded-full before:bg-sky-500 before:transition before:scale-x-0 group-hover:before:scale-x-100">
@@ -89,10 +89,10 @@ export default function NavBar() {
                                 Setup
                               </span>
                             </div>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="/creators" className="block md:px-4 group">
+                          <Link href="/creators" className="block md:px-4 group">
                             <div
                               className="relative group
                                                             before:absolute before:-bottom-2 md:before:-bottom-7 before:w-full before:h-0.5 before:origin-left before:mt-auto before:rounded-full before:bg-sky-500 before:transition before:scale-x-0 group-hover:before:scale-x-100">
@@ -100,7 +100,7 @@ export default function NavBar() {
                                 Creators
                               </span>
                             </div>
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import github from "../../../public/github.png";
-import hero from "../../../public/hero.png";
+import hero from "../../../public/hero.gif";
+import Link from "next/link";
 
 export default function Body() {
   return (
@@ -26,8 +27,8 @@ export default function Body() {
           <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
             <div className="grid grid-cols-3 space-x-4 md:space-x-6 md:flex md:justify-center lg:justify-center">
               <a
-                aria-label="add to slack"
-                href="#"
+                aria-label="github"
+                href="https://github.com/oslabs-beta/poseidon"
                 className="p-4 border border-gray-200 dark:bg-gray-800 dark:border-gray-700 rounded-full duration-300 hover:border-sky-500 hover:shadow-lg hover:shadow-cyan-600/20 dark:hover:border-cyan-300/30">
                 <div className="flex justify-center space-x-4">
                   <Image
@@ -43,8 +44,8 @@ export default function Body() {
                 </div>
               </a>
               <a
-                aria-label="add to chat"
-                href="#"
+                aria-label="video tutorial"
+                href="https://www.youtube.com/watch?v=v_0d7XOVLRA"
                 className="p-4 border border-gray-200 dark:bg-gray-800  dark:border-gray-700 rounded-full duration-300 hover:border-green-400 hover:shadow-lg hover:shadow-lime-600/20 dark:hover:border-green-300/30">
                 <div className="flex justify-center space-x-4">
                   <svg

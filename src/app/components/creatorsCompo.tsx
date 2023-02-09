@@ -7,7 +7,7 @@ import josh from "../../../public/josh.jpg";
 export default function Creators() {
   return (
     <>
-      <div className="py-48 bg-slate-900">
+      <div className="flex flex-col items-center pt-40 bg-slate-900">
         <div className="xl:container mx-auto px-6 md:px-12">
           <div className="mb-16 md:w-2/3 lg:w-1/2">
             <h2 className="mb-4 text-2xl font-bold text-slate-500 dark:text-white md:text-4xl">
@@ -109,17 +109,13 @@ export default function Creators() {
                   </span>
                 </div>
                 <p className="mt-8 text-gray-300 dark:text-gray-600">
-                  Quae labore quia tempora dolor impedit. Possimus, sint ducimus
-                  ipsam?
+                Innovative software engineer with a blend of technical and creative expertise.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <div className="bg-slate-900 h-64">
-        <p></p>
-      </div> */}
     </>
   );
 }
