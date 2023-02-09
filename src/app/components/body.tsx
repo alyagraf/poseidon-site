@@ -45,7 +45,7 @@ export default function Body() {
               </a>
               <a
                 aria-label="video tutorial"
-                href="https://www.youtube.com/watch?v=v_0d7XOVLRA"
+                href="https://youtu.be/hqeGqh0ksPg"
                 className="p-4 border border-gray-200 dark:bg-gray-800  dark:border-gray-700 rounded-full duration-300 hover:border-green-400 hover:shadow-lg hover:shadow-lime-600/20 dark:hover:border-green-300/30">
                 <div className="flex justify-center space-x-4">
                   <svg
