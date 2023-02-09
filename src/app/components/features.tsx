@@ -9,7 +9,7 @@ export default function Features() {
 
           <div className="grid max-w-7xl mx-auto sm:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12 xl:gap-16">
             <div className="flex gap-4 md:gap-6">
-              <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center shrink-0 bg-cyan-500 shadow-lg shadow-cyan-500/40 text-white rounded-lg md:rounded-xl shadow-lg">
+              <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center shrink-0 bg-cyan-500 shadow-lg shadow-cyan-500/40 text-white rounded-lg md:rounded-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -36,7 +36,7 @@ export default function Features() {
               </div>
             </div>
             <div className="flex gap-4 md:gap-6">
-              <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center shrink-0 bg-cyan-500 shadow-lg shadow-cyan-500/40 text-white rounded-lg md:rounded-xl shadow-lg">
+              <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center shrink-0 bg-cyan-500 shadow-lg shadow-cyan-500/40 text-white rounded-lg md:rounded-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -63,7 +63,7 @@ export default function Features() {
               </div>
             </div>
             <div className="flex gap-4 md:gap-6">
-              <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center shrink-0 bg-cyan-500 shadow-lg shadow-cyan-500/40 text-white rounded-lg md:rounded-xl shadow-lg">
+              <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center shrink-0 bg-cyan-500 shadow-lg shadow-cyan-500/40 text-white rounded-lg md:rounded-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -89,7 +89,7 @@ export default function Features() {
               </div>
             </div>
             <div className="flex gap-4 md:gap-6">
-              <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center shrink-0 bg-cyan-500 shadow-lg shadow-cyan-500/40 text-white rounded-lg md:rounded-xl shadow-lg">
+              <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center shrink-0 bg-cyan-500 shadow-lg shadow-cyan-500/40 text-white rounded-lg md:rounded-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -116,7 +116,7 @@ export default function Features() {
               </div>
             </div>
             <div className="flex gap-4 md:gap-6">
-              <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center shrink-0 bg-cyan-500 shadow-lg shadow-cyan-500/40 text-white rounded-lg md:rounded-xl shadow-lg">
+              <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center shrink-0 bg-cyan-500 shadow-lg shadow-cyan-500/40 text-white rounded-lg md:rounded-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -142,7 +142,7 @@ export default function Features() {
               </div>
             </div>
             <div className="flex gap-4 md:gap-6">
-              <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center shrink-0 bg-cyan-500 shadow-lg shadow-cyan-500/40 text-white rounded-lg md:rounded-xl shadow-lg">
+              <div className="w-12 md:w-14 h-12 md:h-14 flex justify-center items-center shrink-0 bg-cyan-500 shadow-lg shadow-cyan-500/40 text-white rounded-lg md:rounded-xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

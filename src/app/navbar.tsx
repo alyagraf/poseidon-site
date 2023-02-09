@@ -1,12 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import LogoPNG from "../../public/LogoPNG.png";
-
+import NavLinks from "./components/NavLinks";
 
 export default function NavBar() {
+
   return (
     <>
-      <div className="sticky top-0 z-50 relative w-full">
+      <div className="sticky top-0 z-50 w-full">
         <header className="absolute top-0 left-0 w-full flex justify-center">
           <nav className="absolute w-full">
             <div className="relative z-30 bg-slate-900 dark:bg-gray-900">
@@ -58,52 +59,40 @@ export default function NavBar() {
                             md:gap-y-0 md:gap-x-4 md:divide-x md:p-0 
                             md:flex-row md:bg-transparent lg:w-7/12">
                     <div className="block w-full md:w-max">
-                      <ul
-                        className="gap-y-6 tracking-wide 
-                                    text-gray-500 dark:text-gray-300 font-medium flex flex-col md:flex-row md:gap-y-0">
-                        <li>
+                      <NavLinks />
+                      {/* <ul className="
+                        gap-y-6 tracking-wide text-gray-500 dark:text-gray-300 font-medium flex flex-col md:flex-row md:gap-y-0
+                      "> */}
+
+                        {/* LINK FOR HOME */}
+                        {/* <li>
                           <Link href="/" className="block md:px-4">
-                            <div
-                              className="relative text-sky-500 dark:text-green-400
-                                                            before:absolute before:-bottom-2 md:before:-bottom-7 before:w-full before:h-1 before:mx-auto before:mt-auto before:rounded-t-full before:bg-sky-500">
-                              <span>Home</span>
-                            </div>
+                            <span className="hover:text-sky-500 hover:underline decoration-sky-500 underline-offset-4">Home</span>
                           </Link>
-                        </li>
-                        <li>
+                        </li> */}
+
+                        {/* LINK TO PRESS */}
+                        {/* <li>
                           <Link href="/press" className="block md:px-4 group">
-                            <div
-                              className="relative group
-                                                            before:absolute before:-bottom-2 md:before:-bottom-7 before:w-full before:h-0.5 before:origin-left before:mt-auto before:rounded-full before:bg-sky-500 before:transition before:scale-x-0 group-hover:before:scale-x-100 ">
-                              <span className="group-hover:text-sky-500">
-                                Press
-                              </span>
-                            </div>
+                            <span className="hover:text-sky-500 hover:underline decoration-sky-500 underline-offset-4">Press</span>
                           </Link>
-                        </li>
-                        <li>
+                        </li> */}
+
+                        {/* LINK TO SETUP */}
+                        {/* <li>
                           <Link href="/setup" className="block md:px-4 group">
-                            <div
-                              className="relative group
-                                                            before:absolute before:-bottom-2 md:before:-bottom-7 before:w-full before:h-0.5 before:origin-left before:mt-auto before:rounded-full before:bg-sky-500 before:transition before:scale-x-0 group-hover:before:scale-x-100">
-                              <span className="group-hover:text-sky-500">
-                                Setup
-                              </span>
-                            </div>
+                              <span className="hover:text-sky-500 hover:underline decoration-sky-500 underline-offset-4">Setup</span>
                           </Link>
-                        </li>
-                        <li>
+                        </li> */}
+
+                        {/* LINK TO CREATORS */}
+                        {/* <li>
                           <Link href="/creators" className="block md:px-4 group">
-                            <div
-                              className="relative group
-                                                            before:absolute before:-bottom-2 md:before:-bottom-7 before:w-full before:h-0.5 before:origin-left before:mt-auto before:rounded-full before:bg-sky-500 before:transition before:scale-x-0 group-hover:before:scale-x-100">
-                              <span className="group-hover:text-sky-500">
-                                Creators
-                              </span>
-                            </div>
+                            <span className="hover:text-sky-500 hover:underline decoration-sky-500 underline-offset-4">Creators</span>
                           </Link>
                         </li>
-                      </ul>
+
+                      </ul> */}
                     </div>
                   </div>
                 </div>
