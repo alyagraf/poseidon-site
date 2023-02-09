@@ -15,7 +15,7 @@ export default function BodyComponent() {
             < Features />
             < Tech />
             < Steps />
-            < Faq />
+            {/* < Faq /> */}
             < Footer />
         </div>
     )
