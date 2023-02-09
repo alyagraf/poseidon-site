@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import LogoPNG from "../../public/LogoPNG.png";
 
+
 export default function NavBar() {
   return (
     <>
@@ -73,7 +74,7 @@ export default function NavBar() {
                           <Link href="/press" className="block md:px-4 group">
                             <div
                               className="relative group
-                                                            before:absolute before:-bottom-2 md:before:-bottom-7 before:w-full before:h-0.5 before:origin-left before:mt-auto before:rounded-full before:bg-sky-500 before:transition before:scale-x-0 group-hover:before:scale-x-100">
+                                                            before:absolute before:-bottom-2 md:before:-bottom-7 before:w-full before:h-0.5 before:origin-left before:mt-auto before:rounded-full before:bg-sky-500 before:transition before:scale-x-0 group-hover:before:scale-x-100 ">
                               <span className="group-hover:text-sky-500">
                                 Press
                               </span>
