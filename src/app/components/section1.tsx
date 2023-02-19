@@ -74,7 +74,7 @@ export default function Section1() {
                 IP ADDRESS]&quot; <br />
                 LOCAL_CLUSTER_IP = &quot;localhost:3300&quot; <br />
                 LOCAL_CLUSTER_NAME = &quot;[REPLACE THIS WITH THE UNIQUE EMBED
-                ID FROM YOUR LOCAL CLUSTER'S GRAFANA SHARE LINK]&quot; <br />
+                ID FROM YOUR LOCAL CLUSTER&apos;S GRAFANA SHARE LINK]&quot; <br />
                 DEPLOYED_CLUSTER_IP = &quot;[REPLACE THIS WITH YOUR DEPLOYED*
                 CLUSTER IP ADDRESS]&quot; <br />
                 DEPLOYED_CLUSTER_NAME = &quot;[REPLACE THIS WITH THE UNIQUE
