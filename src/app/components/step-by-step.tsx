@@ -4,21 +4,16 @@ import Section1 from "./section1";
 export default function Setup() {
   return (
     <>
-      {/* <div className="flex flex-col items-start px-4 pt-40 pb-20 mx-auto xl:w-7/12">
+      <div className="flex flex-col items-start px-4 pt-40 pb-20 mx-auto xl:w-7/12">
         <section className="dark:bg-gray-800 dark:text-gray-100">
           <div className="container mx-auto flex flex-col p-6">
-            <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0"> */}
-              {/* <BtnToggle /> */}
-            {/* </div> */}
-            {/* <Section1 /> */}
-            <div className="flex h-screen">
-              <div className="m-auto">
-                <h1 className="text-4xl text-center">COMING SOON...</h1>
-              </div>
+            <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
+              <BtnToggle />
             </div>
-      {/* //     </div> */}
-      {/* //   </section> */}
-      {/* // </div> */}
+            <Section1 />
+          </div>
+        </section>
+      </div>
     </>
   );
 }

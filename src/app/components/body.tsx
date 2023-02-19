@@ -16,7 +16,7 @@ export default function Body() {
             </span>{" "}
             in one single place.
           </h1>
-          <p className="px-0 mb-6 text-lg text-gray-600 md:text-xl lg:px-30">
+          <p className="px-0 mb-6 text-lg text-gray-500 md:text-xl lg:px-30">
             The Cluster Data Visualizer and Cost Analysis app revolutionizes
             Kubernetes optimization. Developed by top experts, it delivers cost
             estimates, stunning visualizations, and crucial insights to optimize
