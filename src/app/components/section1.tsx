@@ -86,7 +86,7 @@ export default function Section1() {
             </div>
             <br />
             Be sure to replace the areas of all caps text including the enclosing square brackets with the specified information, then save the file.
-            *Functions for both depolyments on AWS and/or Google.
+            *Functions for both depolyments on AWS and/or Google .
           </span>
         </div>
       </div>
